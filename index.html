@@ -4,20 +4,40 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
   <title>Homework_1</title>
 </head>
 <body>
   <h1>Homework 1</h1>
+  <h2>Команди Git</h2>
+  <div class="section">
+  <h3>Base</h3>
   <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>git config --global user.name blabla - задати ім'я користувача</li>
+    <li>git config --global user.email blabal@bla - задати електронну адресу користувача</li>
+    <li>git init - створення git-репозиторія</li>
+    <li>git status - показує стан файлів</li>
+    <li>git add - додає вміст для нового коміту</li>
+    <li>git commit - робить коміт</li>
+    <li>git log - журнал комітів</li>
+    <li>git checkout - переключатися між гілками і перегляд даних з гілки</li>
+    <li>git branch - показує наявні гілки, дає можливість додавати нові, видаляти і змінювати назву</li>
+    <li>git push - з'єднання з віддаленим репозиторієм </li>
+    <li>git pull- комбінація команд git fetch і git merge, тобто спочатку збираються зміни з вказаного віддаленого репозиторію, а тоді зливає з даною гілкою</li>
+    <li>git merge - злиття гілок в одну</li>
+    <li>git clone - клонувати віддалений репозиторій</li>
   </ul>
+  <p>.gitignore - в цьому файлі записуємо все, що має ігнорувати git </p>
+</div>
+<div class="section">
+<h3>Advanced</h3>
+<ul>
+  <li>git revert - скасувати існуючий коміт </li>
+  <li>git reset - скасувати останній коміт</li>
+  <li>git rebase - об'єднати коміти з однієї гілки з іншою гілкою/li>
+  <li>git cherry-pick - застосовує зміни, внесені деяким комітом і застосовує їх для повторно для гілки</li>
+  <li>git stash - дозволяє відкласти зміни</li>
+</ul>
+</div>
 </body>
 </html>
