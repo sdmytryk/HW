@@ -8,8 +8,24 @@ html, body{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.05px;
+  
 }
 
 body{
   padding: 20px;
+  }
+
+  
+
+  p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .shuttles_list{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+  }
+  ul{
+    padding-left: 40px;
   }
