@@ -8,6 +8,7 @@ body {
 }
 
 .block_1 {
+	font-family: 'Inter', sans-serif;
 	Width: 1440px;
 	Height: 72px;
 	display: inline-flex;
@@ -46,6 +47,7 @@ body {
 }
 
 .block_2 {
+	font-family: 'Inter', sans-serif;
 	width: 1440px;
 	height: 52px;
 	background: #2B2627;
@@ -75,6 +77,7 @@ body {
 }
 
 .block_3 {
+	font-family: 'Inter', sans-serif;
 	margin-top: 72px;
 	margin-left: 26px;
 	width: 560px;
@@ -145,10 +148,10 @@ body {
 	background: #26262B;
 	border-radius: 10px;
 	display: flex;
+	font-family:'Inter', sans-serif;
 }
 
 .block_4>p {
-	font-family:'Inter', sans-serif;
 	font-size: 12px;
 	color: #FFFFFF;
 	width: 469px;
