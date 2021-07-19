@@ -67,9 +67,15 @@ body {
 }
 
 
-.block_2>img {
-	height: auto;
-	width: auto;
+.block_2>button {
+
+	height: 16px;
+  width: 16px;
+	border: none;
+	cursor: pointer;
+  background-image: url(./img/image\ 10.svg);
+	background-color:#2B2627 ;
+	
 }
 
 .block_2>p>a {
@@ -89,13 +95,17 @@ body {
 	margin-bottom: 24px;
 }
 
-
-.block_3>img {
-	
-	height: 36px;
-  width: 36px;
+.img-cookie {
+	background: rgba(234, 76, 137, 0.1);
+	border-radius: 10px; 
+	padding: 8px;
 	margin-left: 16px;
 	margin-right: 10px;
+}
+
+.cookie {
+	width: 20px;
+	height: 20px;
 }
 
 .block_3>p {
