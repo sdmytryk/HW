@@ -242,7 +242,12 @@ body {
 	text-align: center;
 	color: #FFFFFF;
 	padding: 0px 67px 32px 24px;
+
 }
+.cookie_notice a:hover {
+      
+    text-decoration: underline; 
+   }
 
 .cookie_notice>a>button {
 	font-weight: 500;
@@ -376,6 +381,10 @@ body {
 	font-size: 14px;
 	margin-left: 20px;
 }
+.block_8>a:hover {
+      
+    text-decoration: underline; 
+   }
 
 .block_8>a>button {
 	background: #6666FF;
