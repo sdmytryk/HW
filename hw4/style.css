@@ -165,7 +165,13 @@ footer h3{
     margin-right: 14px;
     cursor: pointer;
 }
-
+ .footer_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 85px 196px 86px 166px;
+}
+ 
 
 
 
