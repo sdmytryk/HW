@@ -116,6 +116,7 @@ body {
 	height: 28px;
 	background: rgba(13, 12, 34, 0.05);
 	border-radius: 8px;
+	font-family: 'Inter', sans-serif;
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 20px;
@@ -137,6 +138,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	padding-top: 4px;
+	font-family: 'Inter', sans-serif;
 	color: white;
 }
 
