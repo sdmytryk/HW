@@ -388,7 +388,7 @@ margin-right: 102px;
 
 }
 .try-free{
-  border-top: 1px solid #9b69e254;
+  border-top: 2px solid #9b69e254;
 
 
 }
@@ -468,7 +468,7 @@ margin-right: 102px;
 }
 
 .try-free_content_right_btn2:hover{
-  background-color: #212353;
-    border: 1px solid #212353;
-    color: #FFFFFF;
+  
+    border: 1px solid  #9C69E2;
+    
 }
