@@ -3,11 +3,12 @@
   padding: 0;
 }
 html, body{
-  background-color: #ddf7ec;
+  background: linear-gradient(60deg, #cbf0e2, #466d5b);
   font-family: "Arial";
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.05px;
+  height: 100%;
 }
 
 body{
@@ -16,11 +17,16 @@ body{
 }
 a{
   text-decoration: none;
-  color: #063d26; 
+  color: #000;
 }
 
 li {
   list-style-type: none;
+  
+}
+li:hover {
+  font-size: 18px;
+  text-decoration: underline;
  
 }
 .section{
@@ -29,8 +35,8 @@ li {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-right: 0px;
-  border: 5px solid #68c094;
-  background-color: rgba(85, 199, 129, 0.301);
+  border: 5px solid #365547;
+  
   max-width: 90%;
   
 }
