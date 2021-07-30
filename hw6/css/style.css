@@ -80,16 +80,13 @@ td {
 }
 
 
-.search-ps {
-  position: relative;
-  top: -25px;
-}
+
 
 .search {
   position: absolute;
-  left: 375px;
+  margin-left: 375px;
+  margin-top: -30px;
   width: 250px;
-  height: auto;
   padding: 10px 0 10px 30px;
   border-radius: 10px;
   border-style: none;
@@ -97,9 +94,25 @@ td {
   outline: none;
   color: rgb(255, 255, 255);
   background-image: url(../img/magnifying-glass.svg);
-  background-repeat: no-repeat;
-  background-size: 13px;
+  background-size: 15px;
   background-position: 10px;
+  background-repeat: no-repeat;
+}
+.checkbox {
+  margin-right: 20px;
+}
+.box {
+  display: inline-block;
+}
+.box::before{
+content: "";
+display:block;
+height: 20px;
+width: 40px;
+background-image: url(../img/cardboard-box.svg);
+background-repeat: no-repeat;
+background-size: 22px;
+background-position: center;
 }
 
 .last{
