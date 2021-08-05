@@ -88,11 +88,13 @@ body{
 form{
    width: 80%;   
 }
-input{
+input, select{
    border: 1px solid #333333;
    box-sizing: border-box;
    border-radius: 6px;
+   color: #6d6d6d;
 }
+
 .input_name{
    display: flex;
 
