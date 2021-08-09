@@ -80,10 +80,10 @@
 @keyframes sword_1{
   0% {
       top: 0;
-      opacity: 100%;
+      opacity: 0;
   }
   100% {
-      top: -20px;
+      top: 0;
       opacity: 0;
   }
 }
