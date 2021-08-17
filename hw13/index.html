@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HW13</title>
+</head>
+<body>
+    <header class="header col-12">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid header_main ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class=" col-10 col-sm-10 col-md-3">
+                            <a class="navbar-brand col-md-6 col-lg-6" href="#">
+                                <img class="inst-logo" src="img/logo.svg" alt="instagram logo">
+                            </a>
+                           
+                        </div>
+                        <button class="navbar-toggler col-2    " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="col-md-6 collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="col-md-5 ">
+                                <form class="d-flex">
+                                    <i class="search-icon"></i>
+                                    <label for="search" hidden>Search</label>
+                                    <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                </form>
+                            </div>
+
+                            <div class="col-md-5">
+                                <div class="media-nav navbar-nav justify-content-center">
+                                    <a href="#" class="nav-link col-2 col-sm-2 col-md-2">
+                                        <img src="img/home.svg" alt="home">
+                                    </a>
+                                    <a href="#" class="nav-link col-2 col-sm-2 col-md-2">
+                                       <img class="message" max-width="22px" height="19px" src="img/messages.svg" alt="message">
+                                       <div class="red-circle">5</div>
+                                    </a>
+                                    <a href="#" class="nav-link col-2 col-sm-2 col-md-2">
+                                        <img src="img/navigation.svg" alt="navigation">
+                                    </a>
+                                    <a href="#" class="nav-link col-2 col-sm-2 col-md-2">
+                                       <img src="img/likes.svg" alt="likes">
+                                    </a>
+                                    <a href="#" class="nav-link col-2 col-sm-2 col-md-2">
+                                        <img src="img/circle.svg" alt="main photo circle">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid main">
+            <div class="container">
+                <div class="row main_about-margin-bottom">
+                    <div class="col-md-1 col-xl-2"></div>
+                    <div class="col-md-3 col-sm-4 col-xs-12 col-xl-3 main-margin">
+                        <img class="avatar" src="img/main_photo.svg" width="154" class="img-fluid" alt="avatar">
+                    </div>
+                    <div class="col-md-7 col-sm-8 col-xs-12 main-margin">
+                        <div>
+                            <div class="main_about-first-line">
+                                <span class="about_name">name</span>
+                                <button type="button" class="btn follow-btn">Follow</button>
+                                <div class="btn-group">
+                                    <button type="button" class="btn dropdown-toggle second-btn" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Hey</a></li>
+                                        <li><a class="dropdown-item" href="#">Follow me</a></li>
+                                        <li><a class="dropdown-item" href="#">sdmytryk</a></li>
+                                    </ul>
+                                </div>
+                                <img src="img/dots.svg" alt="dot">
+                                <img src="img/dots.svg" alt="dot">
+                                <img src="img/dots.svg" alt="dot">
+
+                            </div>
+                            <div class="statistics_info">
+                                <span class="posts_info">79 posts</span>
+                                <span class="followers_info">379 followers</span>
+                                <span class="following_info">179 following</span>
+                            </div>
+                            <div>
+                                <span class="profile-name">Name</span>
+                                <span class="about_info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</span>
+                                <a href="bit.ly/35Ce3mX" class="link">bit.ly/35Ce3mX</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8 col-md-8 col-12 stories-items">
+                        <img class="stories-item" width="79" src="img/stories.svg" alt="stories">
+                        <img class="stories-item" width="79" src="img/stories.svg" alt="stories">
+                        <img class="stories-item" width="79" src="img/stories.svg" alt="stories">
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-sm-2 "></div>
+                    <div class="col-sm-8	col-md-8	col-lg-	col-xl- stories-name">
+                        <span class="story-name">Name</span>
+                        <span class="story-name">Name</span>
+                        <span class="story-name">Name</span>
+                    </div>
+                </div>
+                <div class="line-align">
+                    <div class="line"></div>
+                </div>
+                <div class="row tabes_info">
+                    <div class="col-md-5 col-sm-4 col-3"></div>
+                    <div class="  col-sm-6 col-md-6 col-6 col-lg-4 col-xl-4 ">
+                        <span class="posts">POSTS</span>
+                        <span class="tagged">TAGGED</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container ">
+                <div class="row photos">
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item" >
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item">
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item">
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item">
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item">
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item">
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item">
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item">
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item">
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item">
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item">
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item">
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item">
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item">
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-xl-3 photos-item">
+                        <img class="page-photo" src="img/post.svg" alt="photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+
+</html>
