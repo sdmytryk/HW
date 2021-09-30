@@ -10,7 +10,7 @@ const sumPrice = peachPrice + cherryPrice + plumPrice;
 const floorSumPrice = Math.floor(peachPrice) + Math.floor(cherryPrice) + Math.floor(plumPrice);
 const roundedToHundreds = Math.round(floorSumPrice / 100) * 100;
 
-const OddOrEven = floorSumPrice % 2;
+const oddOrEven = floorSumPrice % 2;
 
 const restSum = money - sumPrice;
 
