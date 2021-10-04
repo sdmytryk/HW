@@ -82,14 +82,26 @@
  const isPalyndrom = (palyndromWord) => {
     if (palyndromWord === palyndromWord.split('').reverse().join('')) {
       return true;
-    } else {
+    }
+    else {
       return false;
     }
   };
 
 
   //11
-  
+  const deleteDuplicateLetter = (sentence) => {
+     sentence = sentence.toLowerCase();
+     let sentenceArr = sentence.split("");
+     for (let i = 0; i < sentenceArr.length; i++) {
+         for (let j = i + 1; j < sentenceArr.length; j++)
+         if (sentenceArr[i] == sentenceArr[j]) {
+             sentence = sentence.replaceAll(sentence[i], "");
+            }
+     }
+     return sentence;
+  }; 
+
  document.writeln(`
  Функція №1: ${getMaxDigit(1258632459)};<br>
  Функція №2: ${getNumberPower(3, 10)};<br>
@@ -101,4 +113,5 @@
  Функція №8: ${getRandomPassword()};<br>
  Функція №9: ${deleteLetter('a' , 'blablalbalba')};<br>
  Функція №10: ${isPalyndrom('мадам')}<br>
+ Функція №11: ${deleteDuplicateLetter('Бісквіт був дуже ніжним')}<br>
  `);
