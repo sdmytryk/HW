@@ -112,6 +112,6 @@
  Функція №7: ${convertCurrency('2650UAH')};<br>
  Функція №8: ${getRandomPassword()};<br>
  Функція №9: ${deleteLetter('a' , 'blablalbalba')};<br>
- Функція №10: ${isPalyndrom('мадам')}<br>
- Функція №11: ${deleteDuplicateLetter('Бісквіт був дуже ніжним')}<br>
+ Функція №10: ${isPalyndrom('мадам')};<br>
+ Функція №11: ${deleteDuplicateLetter('Бісквіт був дуже ніжним')}.<br>
  `);
