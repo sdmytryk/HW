@@ -20,7 +20,7 @@
   
 
  //4
- const sumSalary = (salary) => (salary * 0.805);
+ const sumSalary = (salary) => (salary * 0.805);//tax=0,805
 
 
  //5
@@ -80,6 +80,7 @@
 
  //10
  const isPalyndrom = (palyndromWord) => {
+    palyndromWord = palyndromWord.toLowerCase().replaceAll(" ", "");
     if (palyndromWord === palyndromWord.split('').reverse().join('')) {
       return true;
     }
@@ -92,16 +93,14 @@
   //11
   const deleteDuplicateLetter = (sentence) => {
      sentence = sentence.toLowerCase();
-     let sentenceArr = sentence.split("");
-     for (let i = 0; i < sentenceArr.length; i++) {
-         for (let j = i + 1; j < sentenceArr.length; j++)
-         if (sentenceArr[i] == sentenceArr[j]) {
-             sentence = sentence.replaceAll(sentence[i], "");
-            }
-     }
-     return sentence;
-  }; 
-
+     let resultSentence = "";
+     for(let i = 0; i < sentence.length; i++) {
+         if (sentence.replaceAll(sentence[i], "").length === sentence.length - 1) {
+          resultSentence += sentence[i];
+         };
+     };
+     return resultSentence;
+ };
  document.writeln(`
  Функція №1: ${getMaxDigit(1258632459)};<br>
  Функція №2: ${getNumberPower(3, 10)};<br>
@@ -112,6 +111,6 @@
  Функція №7: ${convertCurrency('2650UAH')};<br>
  Функція №8: ${getRandomPassword()};<br>
  Функція №9: ${deleteLetter('a' , 'blablalbalba')};<br>
- Функція №10: ${isPalyndrom('мадам')};<br>
+ Функція №10: ${isPalyndrom('Я несу гусеня')};<br>
  Функція №11: ${deleteDuplicateLetter('Бісквіт був дуже ніжним')}.<br>
  `);
