@@ -30,7 +30,7 @@ const addMark = (students, marks) => students.map((student, i) => [student, mark
 
 
 //4
-const randomMark = (pairsWithThemes) => pairsWithThemes.map((pairs) => [...pairs, Math.floor(Math.random()* 5 + 1)]);
+const randomMark = (getPairTheme) => getPairTheme.map((group) => [...group, Math.floor(Math.random()* 5 + 1)]);
 
 
 const pairs = getPairs(students);
