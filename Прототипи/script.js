@@ -83,6 +83,5 @@ petro.getScholarship();
 petro.setMarks = 3;
 petro.setMarks = 3;
 petro.setMarks = 3;
-console.log(petro.getMarks);
 console.log(`Середній бал ${petro.getAverageMark()}`);
 petro.getScholarship();
