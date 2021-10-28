@@ -61,7 +61,6 @@ class BudgetStudent extends Student {
       super(university, course, fullName);
       setInterval(() => this.getScholarship(), 30000)
     }
-    
   getScholarship() {
       if (this.getAverageMark() >= 4 && this.isStudy) {
           console.log('Ви отримали 1400 грн. стипендії');
