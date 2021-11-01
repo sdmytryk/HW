@@ -6,7 +6,7 @@
 html {
   font-size: 10px;
   background: url("img/body_img.jpg") ;
-  
+  background-size: cover;
 }
 
 .keys {
