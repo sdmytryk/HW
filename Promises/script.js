@@ -18,4 +18,4 @@ function getRandomChinese(length) {
 
 
   getRandomChinese(4).then((result) => console.log(result));
-  getRandomChinese(4).then((result) => document.writeln(`${result}`));
+  
